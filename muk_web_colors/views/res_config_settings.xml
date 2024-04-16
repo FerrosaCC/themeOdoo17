@@ -11,8 +11,7 @@
 	    		<block title="Branding" id="branding_settings">
 	    			<setting string="Light Mode Colors" help="Customize the look and feel of the light mode">
                      	<div class="w-50 row">
-                            <label for="color_brand_light" string="Brand" class="d-block w-75 py-2"/>
-                            <field name="color_brand_light" class="d-block w-25 p-0 m-0" widget="color"/>
+                           
                         </div>
                      	<div class="w-50 row">
                             <label for="color_primary_light" string="Primary" class="d-block w-75 py-2"/>
