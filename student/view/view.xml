@@ -51,7 +51,7 @@
                         <field name="name"/>
                         <field name="fees"/>
                         <field name="school_id"
-                        invisible="name not False"/>
+                        invisible="name == False"/>
                     </group>
                     <group>
                         <field name="stud_tag_list"
