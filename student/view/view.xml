@@ -115,7 +115,7 @@
     </menuitem>
 -->
 
-
+<!--
 <menuitem id="student_menu_root"
               name="Student"
               web_icon="student,static/description/menu_icon.png">
@@ -127,6 +127,6 @@
                       action="action_student_record"
                       sequence="10"/>
         </menuitem>
-
+-->
         
 </odoo>
