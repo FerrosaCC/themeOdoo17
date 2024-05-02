@@ -100,7 +100,7 @@
         <field name="res_model">wb.school</field>
         <field name="view_mode">tree,form</field>
     </record>
-
+<!---
     <menuitem id="student_root"
               name="Student"
               web_icon="student,static/description/menu_icon.png">
@@ -113,6 +113,20 @@
                       action="school_action"/>
         </menuitem>
     </menuitem>
+-->
 
 
+<menuitem id="student_menu_root"
+              name="Student"
+              web_icon="student,static/description/menu_icon.png">
+        <menuitem id="student_subroot"
+                  name="Profile"
+                  sequence="10">
+            <menuitem id="student_sub"
+                      name="Student"
+                      action="action_student_record"
+                      sequence="10"/>
+        </menuitem>
+
+        
 </odoo>
